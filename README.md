@@ -13,8 +13,11 @@ pip install django
 django-admin startproject django_sample
 cd django_sample
 
-**Step 5: Run Project**
+**Step 5: Create word counter application**
+python manage.py startapp WordCounter
+
+**Step 6: Run Project**
 python manage.py runserver 8080
 
-**Step 6: Check server is running or not**
+**Step 7: Check server is running or not**
 URL: http://127.0.0.1:8000/
